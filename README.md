@@ -23,16 +23,6 @@ Antes de começar, você precisa ter instalado:
 
 ---
 
-## 🔐 Variáveis de ambiente
-
-Crie um arquivo `.env` dentro da pasta **backend**:
-
-```env
-PORT=5000
-MONGO_URI=sua_string_de_conexao_mongodb
-```
-
----
 
 ## ▶️ Como usar o projeto
 
