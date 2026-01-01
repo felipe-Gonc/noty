@@ -1,36 +1,111 @@
-Noty
-📌 Descrição
+# MERN Noty
 
-O MERN Noty é uma aplicação fullstack desenvolvida com a stack MERN (MongoDB, Express, React e Node.js). O projeto utiliza React + Vite no frontend e Node.js + Express no backend, com foco em desempenho, organização de código e boas práticas.
+## 📌 Sobre o projeto
 
-A aplicação permite a criação e gerenciamento de notas, servindo como um projeto de estudo e portfólio para desenvolvimento fullstack moderno.
+O **MERN Noty** é uma aplicação fullstack simples para criação e gerenciamento de notas. Foi desenvolvida como projeto de estudo usando a stack **MERN**, com **React + Vite** no frontend e **Node.js + Express** no backend.
 
-🧱 Arquitetura do Projeto
+---
 
-O repositório é um monorepo, contendo frontend e backend no mesmo projeto:
-MERN_NOTY
+## 🧰 Tecnologias
 
-backend/ # API Node.js + Express
+* **Frontend:** React, Vite, Tailwind CSS, DaisyUI, Axios
+* **Backend:** Node.js, Express, MongoDB, Mongoose
 
-frontend/ # React + Vite
-package.json # Scripts globais do projeto
-.gitignore
+---
 
-🚀 Tecnologias Utilizadas
-Frontend
+## ⚙️ Requisitos
 
-React
-Vite
-React Router
-Tailwind CSS
-DaisyUI
-Axios
-React Hot Toast
-Backend
-Node.js
-Express
-MongoDB
-Mongoose
-Dotenv
-CORS
-Upstash Redis (Rate Limiting)
+Antes de começar, você precisa ter instalado:
+
+* Node.js (18+ recomendado)
+* npm ou yarn
+* MongoDB (local ou MongoDB Atlas)
+
+---
+
+## 🔐 Variáveis de ambiente
+
+Crie um arquivo `.env` dentro da pasta **backend**:
+
+```env
+PORT=5000
+MONGO_URI=sua_string_de_conexao_mongodb
+```
+
+---
+
+## ▶️ Como usar o projeto
+
+### 1️⃣ Clonar o repositório
+
+```bash
+git clone https://github.com/felipe-Gonc/noty.git
+cd noty
+```
+
+---
+
+### 2️⃣ Instalar as dependências
+
+Na raiz do projeto, execute:
+
+```bash
+npm install
+```
+
+Isso instalará as dependências do frontend e do backend.
+
+---
+
+### 3️⃣ Iniciar o backend
+
+```bash
+npm run dev --prefix backend
+```
+
+O servidor será iniciado em:
+
+```
+http://localhost:5000
+```
+
+---
+
+### 4️⃣ Iniciar o frontend
+
+Em outro terminal, execute:
+
+```bash
+npm run dev --prefix frontend
+```
+
+A aplicação estará disponível em:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🧪 O que dá para fazer
+
+* Criar notas
+* Listar notas
+* Editar notas
+* Excluir notas
+
+---
+
+## 📁 Estrutura básica
+
+```
+MERN_NOTY/
+├── backend/    # API e regras de negócio
+└── frontend/   # Interface do usuário
+```
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **Felipe Gonçalves** 🚀
