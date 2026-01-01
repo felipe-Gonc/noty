@@ -8,11 +8,13 @@ A aplicação permite a criação e gerenciamento de notas, servindo como um pro
 🧱 Arquitetura do Projeto
 
 O repositório é um monorepo, contendo frontend e backend no mesmo projeto:
-MERN_NOTY/
-├── backend/ # API Node.js + Express
-├── frontend/ # React + Vite
-├── package.json # Scripts globais do projeto
-└── .gitignore
+MERN_NOTY
+
+backend/ # API Node.js + Express
+
+frontend/ # React + Vite
+package.json # Scripts globais do projeto
+.gitignore
 
 🚀 Tecnologias Utilizadas
 Frontend
